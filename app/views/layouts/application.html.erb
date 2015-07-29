@@ -16,12 +16,16 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <%= link_to 'SaaS', root_path, class: 'navbar-brand' %>
+        <%= link_to 'SaaS', root_path, class: 'navbar-brand' %> <!--< %= %> erb tag allows us to embed Ruby code into this HTML file
+        link_to is a convenience method defined by Ralks that allows us to convert into a Anchor tag
+        -->
       </div>
       
       <div class="collapse navbar-collapse" id="main-nav-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><%= link_to "About", "#" %></li>
+          <li><%= link_to "About", about_path %></li> <!-- link_to "Text showing on site", "destination of link"
+          We don't want to hard code links in the code, meaning "/about"
+          -->
         </ul>
       </div><!-- /.navbar-collapse -->
     </div>
