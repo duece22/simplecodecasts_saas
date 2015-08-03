@@ -36,6 +36,9 @@
     </div>
   </nav>
 <div class="container">
+  <% flash.each do |key, value| %>
+    <%= content_tag :div, value, class: "alert alert-#{key}" %>
+  <% end %>
   <%= yield %> <!-- This code outputs the HTML contained in whatever page you're on (different HTML file), this one is for the consistent nav bar -->
 </div>
 
