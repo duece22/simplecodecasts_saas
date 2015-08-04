@@ -11,3 +11,32 @@
   background:      -o-linear-gradient(90deg, #F0C27B 10%, #4B1248 90%); /* Opera 11.10+ */
   background:         linear-gradient(90deg, #F0C27B 10%, #4B1248 90%); /* W3C */
 }
+
+.center { 
+  text-align: center;
+  padding-bottom: 20px;
+  color: #BA9A8C;
+  font-size: 36px;
+}
+
+.back-wolf {
+  background: url("http://www.hd-wallpapersdownload.com/upload/bulk-upload/desktop-indian-wolf-wallpaper.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+  min-height: 100%;
+  overflow: auto;
+}
+
+html {
+    		height: 100%;
+    		margin: 0;
+}
+    	
+body {
+        height: 100%;
+    		margin: 0;
+    	  overflow: hidden;
+}
