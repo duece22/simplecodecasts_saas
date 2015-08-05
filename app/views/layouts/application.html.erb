@@ -43,13 +43,11 @@
       </div><!-- /.navbar-collapse -->
     </div>
   </nav>
-<div class="back-wolf">
   <div class="container">
     <% flash.each do |key, value| %>
       <%= content_tag :div, value, class: "alert alert-#{key}" %>
     <% end %>
     <%= yield %> <!-- This code outputs the HTML contained in whatever page you're on (different HTML file), this one is for the consistent nav bar -->
   </div>
-</div>
 </body>
 </html>

@@ -10,7 +10,6 @@
   background:     -ms-linear-gradient(90deg, #F0C27B 10%, #4B1248 90%); /* IE10 */
   background:      -o-linear-gradient(90deg, #F0C27B 10%, #4B1248 90%); /* Opera 11.10+ */
   background:         linear-gradient(90deg, #F0C27B 10%, #4B1248 90%); /* W3C */
-
 }
 
 .center { 
@@ -20,28 +19,38 @@
   font-size: 36px;
 }
 
-.back-wolf {
-  background: url("http://www.hd-wallpapersdownload.com/upload/bulk-upload/desktop-indian-wolf-wallpaper.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -ms-background-size: cover;
-  background-size: cover;
-  min-height: 100%;
-  min-width: 100%;
-  overflow: auto;
-  position: fixed;
-  left: 0px;
-  top: 0px;
-}
-
-html {
-    		height: 100%;
-    		margin: 0;
-}
+// html {
+//         background: url("http://www.hd-wallpapersdownload.com/upload/bulk-upload/desktop-indian-wolf-wallpaper.jpg") no-repeat center center fixed; 
+//         -webkit-background-size: cover;
+//         -moz-background-size: cover;
+//         -o-background-size: cover;
+//         -ms-background-size: cover;
+//         background-size: cover;
+        
+//     		height: 100%;
+//     		margin: 0;
+// }
     	
-body {
-        height: 100%;
-    		margin: 0;
-    	  overflow: hidden;
-}
+// body {
+//         height: 100%;
+//     		margin: 0;
+//     	  overflow: hidden;
+// }
+
+// #bg {
+//   position: fixed; 
+//   top: -50%; 
+//   left: -50%; 
+//   width: 200%; 
+//   height: 200%;
+// }
+// #bg img {
+//   position: absolute; 
+//   top: 0; 
+//   left: 0; 
+//   right: 0; 
+//   bottom: 0; 
+//   margin: auto; 
+//   min-width: 50%;
+//   min-height: 50%;
+// }
