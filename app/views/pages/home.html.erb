@@ -1,3 +1,6 @@
+<%= link_to "Create your profile!", new_user_profile_path(current_user)  if current_user %> <!-- current_user variable possible because devise gem is installed. 
+Shows up in the Paramters hash and is passed to the profiles#new action to be manipulated. Can then be pulled in on a views page (html) from the controller through Ruby code. -->
+
 <div class="jumbotron text-center">
     <h1 class="center">Welcome to Dev Match</h1>
     <h3>A membership site where entrepreneurs can meet developers.</h3>
